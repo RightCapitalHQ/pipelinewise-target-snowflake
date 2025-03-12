@@ -42,11 +42,11 @@ wheels = [
 
 [[package]]
 name = "backoff"
-version = "1.11.1"
+version = "1.10.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/27/d2/9d2d0f0d6bbe17628b031040b1dadaee616286267e660ad5286a5ed657da/backoff-1.11.1.tar.gz", hash = "sha256:ccb962a2378418c667b3c979b504fdeb7d9e0d29c0579e3b13b86467177728cb", size = 14883 }
+sdist = { url = "https://files.pythonhosted.org/packages/55/52/5c209d0e9f1ad857573be96b285626d5e081d86dd50d7617ff0874685dd4/backoff-1.10.0.tar.gz", hash = "sha256:b8fba021fac74055ac05eb7c7bfce4723aedde6cd0a504e5326bcb0bdd6d19a4", size = 13652 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d7/dd/88df7d5b2077825d6757a674123062c6e7545cc61556b42739e8757b7b65/backoff-1.11.1-py2.py3-none-any.whl", hash = "sha256:61928f8fa48d52e4faa81875eecf308eccfb1016b018bb6bd21e05b5d90a96c5", size = 13141 },
+    { url = "https://files.pythonhosted.org/packages/f0/32/c5dd4f4b0746e9ec05ace2a5045c1fc375ae67ee94355344ad6c7005fd87/backoff-1.10.0-py2.py3-none-any.whl", hash = "sha256:5e73e2cbe780e1915a204799dba0a01896f45f4385e636bcca7a0614d879d0cd", size = 31022 },
 ]
 
 [[package]]
@@ -588,22 +588,6 @@ wheels = [
 ]
 
 [[package]]
-name = "orjson"
-version = "3.6.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/92/97/895dfe0c2e7820fd5453d0efab6a9036de7f97b4edfd157a6a414dd3b0ee/orjson-3.6.1.tar.gz", hash = "sha256:5ee598ce6e943afeb84d5706dc604bf90f74e67dc972af12d08af22249bd62d6", size = 746226 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/af/42/028c7ab62ad2aee6e1f4989cb47e0b9b6ea8851e8ad76b7a88fc9970db85/orjson-3.6.1-cp310-cp310-manylinux_2_24_aarch64.whl", hash = "sha256:ee75753d1929ddd84702ac75d146083c501c7b1978acb35561a25093446b7f5a", size = 220136 },
-    { url = "https://files.pythonhosted.org/packages/41/93/68cec9e30514ccbc249aa1c6b36e20d92f85a44f20a78f2c16e7ff357e1f/orjson-3.6.1-cp310-cp310-manylinux_2_24_x86_64.whl", hash = "sha256:52bd32016e9cc55ca89ce5678196e5d55fec72ded9d9bd2e1e10745b9144562f", size = 233585 },
-    { url = "https://files.pythonhosted.org/packages/e0/d6/1d848d61eba4969e40c040cffb4a422fbcb6a2673d988be2fc63a84c6b36/orjson-3.6.1-cp39-cp39-macosx_10_7_x86_64.whl", hash = "sha256:cb84f10b816ed0cb8040e0d07bfe260549798f8929e9ab88b07622924d1a215f", size = 232754 },
-    { url = "https://files.pythonhosted.org/packages/09/01/94b331dfd2b33c6263e0f71d0363043acb8e5bade43d9a42563c3d94376b/orjson-3.6.1-cp39-cp39-macosx_10_9_x86_64.macosx_11_0_arm64.macosx_10_9_universal2.whl", hash = "sha256:7e6211e515dd4bd5fbb09e6de6202c106619c059221ac29da41bc77a78812bb0", size = 436648 },
-    { url = "https://files.pythonhosted.org/packages/f0/88/5eb316dc880b46487f9f2582db8abab156db1091a185800d8dbda58b52c3/orjson-3.6.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:f15267d2e7195331b9823e278f953058721f0feaa5e6f2a7f62a8768858eed3b", size = 220113 },
-    { url = "https://files.pythonhosted.org/packages/29/ba/6f591859fc0f53beb3e6f7c17743bc44cb18b834ab76bc579d30fd4a94e1/orjson-3.6.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:973e67cf4b8da44c02c3d1b0e68fb6c18630f67a20e1f7f59e4f005e0df622a0", size = 233676 },
-    { url = "https://files.pythonhosted.org/packages/7d/9f/ca1fe1cd6a8f162f501287c54467becf472be0a80a54368c7a700b89fa17/orjson-3.6.1-cp39-cp39-manylinux_2_24_x86_64.whl", hash = "sha256:1cdeda055b606c308087c5492f33650af4491a67315f89829d8680db9653137c", size = 233577 },
-    { url = "https://files.pythonhosted.org/packages/07/0a/8b038dd9b180f8323dc7f8f14ee5ca7ae309ff72de9c13d2fc7709b714ac/orjson-3.6.1-cp39-none-win_amd64.whl", hash = "sha256:cd0dea1eb5fc48e441e4bfd6a26baa21a5ab44c3081025f5ce9248e38d89fbfa", size = 183496 },
-]
-
-[[package]]
 name = "packaging"
 version = "24.2"
 source = { registry = "https://pypi.org/simple" }
@@ -669,19 +653,19 @@ wheels = [
 
 [[package]]
 name = "pipelinewise-singer-python"
-version = "2.0.1"
+version = "1.3.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "backoff" },
     { name = "ciso8601" },
     { name = "jsonschema" },
-    { name = "orjson" },
     { name = "python-dateutil" },
     { name = "pytz" },
+    { name = "simplejson" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/23/a4/429f4341b235d6140a6423f4b60c4e5fad3994b641a403b59ae5e83a8a9c/pipelinewise-singer-python-2.0.1.tar.gz", hash = "sha256:5b5c8cc551388de17a52ae81c505629e8d4ca201a7a98670372a5a18f4aae09b", size = 20921 }
+sdist = { url = "https://files.pythonhosted.org/packages/f6/8c/99e5ba7cc4eba370cffc699837ce1a928cfe8b57d6637d4ef7fcd72ea9f2/pipelinewise-singer-python-1.3.0.tar.gz", hash = "sha256:47cc66a08af8908d0fccb4b28dfcfeb401cc6cb72eb59562afdc938bb3b142f4", size = 21110 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/09/e8/b1b713304e619de8fc3da1f5dfd4e47c88d00d8f35077ca3b69ce0360db3/pipelinewise_singer_python-2.0.1-py3-none-any.whl", hash = "sha256:cbde2a247819609f011f7d9f3d15622bf9c1ad70fbebdff688b675684d534fd7", size = 24766 },
+    { url = "https://files.pythonhosted.org/packages/96/be/bd643e074a1f178d8c71c3cb4886df440459ec9a66e4674b68045a7f1442/pipelinewise_singer_python-1.3.0-py3-none-any.whl", hash = "sha256:8f894138e23fea610c5851e7c84169e8031c6f130132582287650be7f4b7eb17", size = 24716 },
 ]
 
 [[package]]
@@ -711,7 +695,7 @@ requires-dist = [
     { name = "inflection", specifier = "==0.5.1" },
     { name = "joblib", specifier = "==1.2.0" },
     { name = "numpy", specifier = "<2" },
-    { name = "pipelinewise-singer-python", specifier = ">=1,<3" },
+    { name = "pipelinewise-singer-python", specifier = ">=1,<2" },
     { name = "pylint", marker = "extra == 'test'", specifier = ">=2.12,<2.18" },
     { name = "pytest", marker = "extra == 'test'", specifier = "==7.4.0" },
     { name = "pytest-cov", marker = "extra == 'test'", specifier = "==3.0.0" },
@@ -923,11 +907,11 @@ wheels = [
 
 [[package]]
 name = "pytz"
-version = "2025.1"
+version = "2020.5"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/5f/57/df1c9157c8d5a05117e455d66fd7cf6dbc46974f832b1058ed4856785d8a/pytz-2025.1.tar.gz", hash = "sha256:c2db42be2a2518b28e65f9207c4d05e6ff547d1efa4086469ef855e4ab70178e", size = 319617 }
+sdist = { url = "https://files.pythonhosted.org/packages/70/44/404ec10dca553032900a65bcded8b8280cf7c64cc3b723324e2181bf93c9/pytz-2020.5.tar.gz", hash = "sha256:180befebb1927b16f6b57101720075a984c019ac16b1b7575673bea42c6c3da5", size = 314194 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/eb/38/ac33370d784287baa1c3d538978b5e2ea064d4c1b93ffbd12826c190dd10/pytz-2025.1-py2.py3-none-any.whl", hash = "sha256:89dd22dca55b46eac6eda23b2d72721bf1bdfef212645d81513ef5d03038de57", size = 507930 },
+    { url = "https://files.pythonhosted.org/packages/89/06/2c2d3034b4d6bf22f2a4ae546d16925898658a33b4400cfb7e2c1e2871a3/pytz-2020.5-py2.py3-none-any.whl", hash = "sha256:16962c5fb8db4a8f63a26646d8886e9d769b6c511543557bc84e9569fb9a9cb4", size = 510773 },
 ]
 
 [[package]]
@@ -965,6 +949,12 @@ sdist = { url = "https://files.pythonhosted.org/packages/d1/53/43d99d7687e8cdef5
 wheels = [
     { url = "https://files.pythonhosted.org/packages/a9/38/7d7362e031bd6dc121e5081d8cb6aa6f6fedf2b67bf889962134c6da4705/setuptools-75.8.2-py3-none-any.whl", hash = "sha256:558e47c15f1811c1fa7adbd0096669bf76c1d3f433f58324df69f3f5ecac4e8f", size = 1229385 },
 ]
+
+[[package]]
+name = "simplejson"
+version = "3.17.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/49/45/a16db4f0fa383aaf0676fb7e3c660304fe390415c243f41a77c7f917d59b/simplejson-3.17.2.tar.gz", hash = "sha256:75ecc79f26d99222a084fbdd1ce5aad3ac3a8bd535cd9059528452da38b68841", size = 83210 }
 
 [[package]]
 name = "six"
